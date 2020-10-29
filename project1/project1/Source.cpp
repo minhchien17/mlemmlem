@@ -98,6 +98,13 @@ int main()
 	cout << "\nSo ngau nhien 2 la:" << so2;
 	cout << "\nTong 2 so ngau nhien la:" << tong(so1, so2);
 	cout << endl;
+	//ver 4.0
+	int so3 = rand() % 100;
+	int so4 = rand() % 100;
+	cout << "\nSo ngau nhien 1 la:" << so3;
+	cout << "\nSo ngau nhien 2 la:" << so4;
+	cout << "\nHieu 2 so ngau nhien la:" << hieu(so3, so4);
+	cout << endl;
 	system("pause");
 }
 
