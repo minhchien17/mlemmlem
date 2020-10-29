@@ -1,2 +1,4 @@
 ﻿  Source.cpp
+e:\baitap\project1\project1\source.cpp(26): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+e:\baitap\project1\project1\source.cpp(30): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   Project1.vcxproj -> E:\baitap\Project1\Debug\Project1.exe
