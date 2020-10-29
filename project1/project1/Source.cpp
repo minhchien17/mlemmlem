@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 //ver 1.0.0
 int tong(int a, int b)
@@ -46,6 +48,7 @@ int dientichcn(int d, int r)
 	return d * r;
 }
 
+
 //chuong trinh chinh
 int main()
 {
@@ -86,6 +89,14 @@ int main()
 		cout << "\nDien tich hinh chu nhat la:" << dientichcn(d,r);
 		cout << "\nChu vi hinh chu nhat la:" << chuvicn(d,r);
 	}
+	cout << endl;
+	//ver 3.0
+	srand(time(0));
+	int so1 = rand() % 100;
+	int so2 = rand() % 100;
+	cout << "\nSo ngau nhien 1 la:" << so1;
+	cout << "\nSo ngau nhien 2 la:" << so2;
+	cout << "\nTong 2 so ngau nhien la:" << tong(so1, so2);
 	cout << endl;
 	system("pause");
 }
